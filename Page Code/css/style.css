@@ -4245,7 +4245,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(195, 175, 126, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-light .navbar-text {
@@ -4293,7 +4293,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(195, 175, 126, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-dark .navbar-text {
@@ -9576,6 +9576,7 @@ body.sidebar-open .fixed-top {
 
 body.sidebar-open .fixed-top .navbar-brand-wrapper img {
   display: none;
+  color: #C3AF7E;
 }
 
 body.sidebar-open::before {
@@ -9808,7 +9809,7 @@ footer a:hover {
 }
 
 .header-small .navbar {
-  background: white;
+  background: #315e71;
   padding: 18px;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
@@ -9883,13 +9884,10 @@ footer a:hover {
 }
 
 .navbar {
-  background-color: #f7f8fa;
+  background-color: #315e71;
   padding: 18px;
   margin-bottom:80px;
-  color: rgba(0,0,0,0);
 }
-
-
 
 .navbar .navbar-toggler {
   line-height: inherit;
@@ -9897,6 +9895,7 @@ footer a:hover {
 
 .navbar .navbar-toggler .mdi-menu {
   font-size: 30px;
+  color: rgba(195, 175, 126, 1);
 }
 
 .navbar .navbar-toggler .mdi-close {

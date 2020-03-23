@@ -15,13 +15,13 @@
   <header>
     <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar" style="background-color:#315e71">
     <div class="container">
-      <div class="navbar-brand-wrapper d-flex w-150 ">
+      <div class="navbar-brand-wrapper d-flex w-150">
          <a href="https://www.medecio.com"><img src="images/logo.png" alt="" width="90" height="50"></a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="mdi mdi-menu navbar-toggler-icon"></span>
         </button>
       </div>
-      <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent" style="background-color: #315e71">
         <ul class="navbar-nav align-items-lg-center align-items-start ml-auto" id ="navUL">
           <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
             <div class="navbar-collapse-logo">
@@ -44,7 +44,7 @@
             <a class="nav-link" href="#contact-section">Contact Us</a>
           </li>
           <li class="nav-item btn-contact-us">
-            <button class="btn btn-info btn-rounded" id="sign-up-btn">Sign Up</button>
+            <a href="https://discourse.medecio.com/signup"><button class="btn btn-info btn-rounded" id="sign-up-btn">Sign Up</button></a>
           </li>
         </ul>
       </div>
@@ -56,8 +56,8 @@
       <h1 class="font-weight-black">Medecio Forum</h1>
       <h6 class="font-weight-normal text-muted pb-3">A friendly, supportive forum based around providing lifestyle tips to people to improve health and well-being.</h6>
       <div>
-        <button class="btn btn-rounded mr-1" id="special-button">Sign Up</button>
-        <button class="btn btn-opacity-success btn-rounded ml-1">Go to Forum</button>
+        <a href="https://discourse.medecio.com/signup"><button class="btn btn-rounded mr-1" id="special-button">Sign Up</button></a>
+        <a href="https://discourse.medecio.com/"><button class="btn btn-opacity-success btn-rounded ml-1">Go to Forum</button></a>
       </div>
       <img src="images/Group171.svg" alt="" class="img-fluid">
     </div>
@@ -106,7 +106,7 @@
             <h3 class="m-0">Medical Forum</h3>
             <div class="col-lg-7 col-xl-6 p-0">
               <p class="py-4 m-0 text-muted">All thanks to Medecio's crowdsourcing, people can get together and share what worked for them and what didn't, to foster a healthier and more aware community.</p>
-              <button class="btn btn-rounded mr-1" id="special-button">Join Today</button>
+              <a href="https://discourse.medecio.com/signup"><button class="btn btn-rounded mr-1" id="special-button">Join Today</button></a>
             </div>
           </div>
           <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0" data-aos="fade-left">
@@ -124,7 +124,7 @@
             <h4 class="pt-1" data-aos="fade-down">Contact us</h4>
           </div>
           <div data-aos="fade-up">
-            <button class="btn btn-rounded btn-outline-danger" id="special-button">Contact us</button>
+            <button class="btn btn-rounded btn-outline-danger" data-toggle="modal" data-target="#exampleModal" id="special-button">Contact us</button>
           </div>
         </div>
       </section>
@@ -134,19 +134,21 @@
   <div class="container">
       <section class="contact-details" id="contact-details-section">
         <div class="row text-center text-md-left">
-          <div class="col-lg-5">
+          <div class="col-4 col-md-3 col-lg-5">
             <img src="images/logo.png" width="90" height="60" alt="" class="pb-2">
             <div class="pt-2">
-              <p class="text-gold m-0">medeciohealth@gmail.com</p>
-              <p class="text-gold m-0">(425) 241-7322</p>
+              <p class="text-gold m-0">medeciohealth<br>@gmail.com<br></p>
+              <p class="text-gold m-0"><br>(425) 241-7322</p>
             </div>
           </div>
-          <div class="col-lg-5">
+          <div class="col-4 col-md-3 col-lg-5">
             <h5 class="text-gold pb-2">Our Guidelines</h5>
-            <a href="#"><p class="text-gold m-0 pb-2">Terms</p></a>
-            <a href="#" ><p class="text-gold m-0 pt-1 pb-2">Privacy policy</p></a>
+            <a href="https://discourse.medecio.com/about" ><p class="text-gold m-0 pt-1 pb-2">About</p></a>
+            <a href="https://discourse.medecio.com/tos"><p class="text-gold m-0 pb-2">Terms</p></a>
+            <a href="https://discourse.medecio.com/privacy" ><p class="text-gold m-0 pt-1 pb-2">Privacy policy</p></a>
+            <a href="https://discourse.medecio.com/faq" ><p class="text-gold m-0 pt-1 pb-2">FAQ</p></a>
           </div>
-          <div class="col-lg-2">
+          <div class="col-4 col-md-3 col-lg-2">
               <h5 class="text-gold pb-2">Our address</h5>
               <p class="text-gold">11133 NE 65th St. Kirkland, WA, USA, 98033</p>
               <div class="d-flex justify-content-center justify-content-md-start">
@@ -161,7 +163,7 @@
       <div class="footer-spacer">
       </div>
       <footer class="border-top">
-        <p class="text-center text-gold pt-4">Copyright © 2019<a href="https://www.medecio.com" class="px-1" style="color: #C3AF7E">Medecio.</a>All rights reserved.</p>
+        <p class="text-center text-gold pt-4">Copyright © 2020<a href="https://www.medecio.com" class="px-1" style="color: #C3AF7E">Medecio.</a>All rights reserved.</p>
       </footer>
       <!-- Modal for Contact - us Button -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -171,24 +173,24 @@
               <h4 class="modal-title" id="exampleModalLabel">Contact Us</h4>
             </div>
             <div class="modal-body">
-              <form>
+              <form action="mailto:medeciohealth@gmail.com" method="post" enctype="text/plain">
                 <div class="form-group">
                   <label for="Name">Name</label>
-                  <input type="text" class="form-control" id="Name" placeholder="Name">
+                  <input type="text" class="form-control" name="Name" id="Name" placeholder="Name">
                 </div>
                 <div class="form-group">
                   <label for="Email">Email</label>
-                  <input type="email" class="form-control" id="Email-1" placeholder="Email">
+                  <input type="email" class="form-control" name="Email" id="Email-1" placeholder="Email">
                 </div>
                 <div class="form-group">
                   <label for="Message">Message</label>
-                  <textarea class="form-control" id="Message" placeholder="Enter your Message"></textarea>
+                  <textarea class="form-control" id="Message" name = "Message" placeholder="Enter your Message"></textarea>
+                </div>
+                <div class = "form-group">
+                  <button type="button" class="btn" id="special-button" data-dismiss="modal">Close</button>
+                  <input type="submit" class="btn btn-opacity-success">
                 </div>
               </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-success">Submit</button>
             </div>
           </div>
         </div>
