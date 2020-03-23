@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar" style="background-color:#315e71">
     <div class="container">
       <div class="navbar-brand-wrapper d-flex w-150 ">
-        <img src="images/logo.png" alt="" width="100" height="50">
+         <a href="https://www.medecio.com"><img src="images/logo.png" alt="" width="90" height="50"></a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="mdi mdi-menu navbar-toggler-icon"></span>
         </button>
@@ -25,349 +25,130 @@
         <ul class="navbar-nav align-items-lg-center align-items-start ml-auto" id ="navUL">
           <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
             <div class="navbar-collapse-logo">
-              <img src="images/logo.png" alt="" width="50" height="60">
+              <img src="images/logo.png" alt="" width="90" height="50">
             </div>
             <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
             </button>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#header-section">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#body">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#features-section">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#digital-marketing-section">Hot Topics</a>
+            <a class="nav-link" href="#digital-marketing-section">Forum</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#feedback-section">Our Team</a>
+            <a class="nav-link" href="#contact-section">Contact Us</a>
           </li>
           <li class="nav-item btn-contact-us pl-4 pl-lg-0">
-            <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Sign Up</button>
+            <button class="btn btn-info btn-rounded" id="sign-up-btn">Sign Up</button>
           </li>
         </ul>
       </div>
     </div>
     </nav>
   </header>
-  <div class="banner" >
+  <div class="banner" id="header-section">
     <div class="container">
       <h1 class="font-weight-black">Medecio Forum</h1>
       <h6 class="font-weight-normal text-muted pb-3">A friendly, supportive forum based around providing lifestyle tips to people to improve health and well-being.</h6>
       <div>
-        <button class="btn btn-opacity-light mr-1">Sign Up</button>
-        <button class="btn btn-opacity-success ml-1">Learn more</button>
+        <button class="btn btn-rounded mr-1" id="special-button">Sign Up</button>
+        <button class="btn btn-opacity-success btn-rounded ml-1">Learn more</button>
       </div>
       <img src="images/Group171.svg" alt="" class="img-fluid">
     </div>
   </div>
-  <div class="content-wrapper">
+  <div class="content-wrapper" style="background-color: #f7f8fa">
     <div class="container">
       <div class="middle-section">
-      <section class="features-overview" id="features-section" >
+      <section class="features-overview" id="features-section">
         <div class="content-header">
-          <h2>How does it works</h2>
-          <h6 class="section-subtitle text-muted">One theme that serves as an easy-to-use operational toolkit<br>that meets customer's needs.</h6>
+          <h2>About</h2>
+          <h6 class="section-subtitle text-muted">A forum built around helping patients recieve the help they need, no matter where they are. </h6>
         </div>
-        <div class="d-md-flex justify-content-between">
+        <div class="d-md-flex justify-content-center">
           <div class="grid-margin d-flex justify-content-start">
             <div class="features-width">
-              <img src="images/Group12.svg" alt="" class="img-icons">
-              <h5 class="py-3">Speed<br>Optimisation</h5>
-              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-              <a href="#"><p class="readmore-link">Readmore</p></a>
+              <img src="images/community.png" alt="" class="img-icons">
+              <h5 class="py-3">Friendly<br>Community</h5>
+              <p class="text-muted" id="forum">A community built around helping you become healthier, moderated and friendly.</p>
             </div>
           </div>
           <div class="grid-margin d-flex justify-content-center">
             <div class="features-width">
-              <img src="images/Group7.svg" alt="" class="img-icons">
-              <h5 class="py-3">SEO and<br>Backlinks</h5>
-              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-              <a href="#"><p class="readmore-link">Readmore</p></a>
+              <img src="images/topics.png" alt="" class="img-icons">
+              <h5 class="py-3">Tons of <br> Topics</h5>
+              <p class="text-muted">A variety of crowd-sourced discussions about a plethora of diseases and conditions.</p>
             </div>
           </div>
           <div class="grid-margin d-flex justify-content-end">
             <div class="features-width">
-              <img src="images/Group5.svg" alt="" class="img-icons">
-              <h5 class="py-3">Content<br>Marketing</h5>
-              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-              <a href="#"><p class="readmore-link">Readmore</p></a>
+              <img src="images/medicine.png" alt="" class="img-icons">
+              <h5 class="py-3">Lifestyle<br>and Medicine</h5>
+              <p class="text-muted">All centered around bringing you helpful, actionable tips to improve your health and happiness.</p>
             </div>
           </div>
         </div>
       </section>
     </div>
+  </div>
+</div>
+    <div class="content-wrapper">
+    <div class="container">
     <div class="second-section">
       <section class="digital-marketing-service" id="digital-marketing-section">
         <div class="row align-items-center">
           <div class="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-right">
-            <h3 class="m-0">We Offer a Full Range<br>of Digital Marketing Services!</h3>
+            <h3 class="m-0">Medical Forum</h3>
             <div class="col-lg-7 col-xl-6 p-0">
-              <p class="py-4 m-0 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-              <p class="font-weight-medium text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer</p>
+              <p class="py-4 m-0 text-muted">All thanks to Medecio's crowdsourcing, people can get together and share what worked for them and what didn't, to foster a healthier and more aware community.</p>
+              <button class="btn btn-rounded mr-1" id="special-button">Join Today</button>
             </div>
           </div>
           <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0" data-aos="fade-left">
-            <img src="images/Group1.png" alt="" class="img-fluid">
-          </div>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-12 col-lg-7 text-center flex-item grid-margin" data-aos="fade-right">
-            <img src="images/Group2.png" alt="" class="img-fluid">
-          </div>
-          <div class="col-12 col-lg-5 flex-item grid-margin" data-aos="fade-left">
-            <h3 class="m-0">Leading Digital Agency<br>for  Business Solution.</h3>
-            <div class="col-lg-9 col-xl-8 p-0">
-              <p class="py-4 m-0 text-muted">Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.</p>
-              <p class="pb-2 font-weight-medium text-muted">Its smart features make it a powerful stand-alone website building tool.</p>
-            </div>
-            <button class="btn btn-info">Readmore</button>
+            <img src="images/mockup.png" alt="" class="img-fluid">
           </div>
         </div>
       </section>
     </div>
-      <section class="case-studies" id="case-studies-section">
-        <div class="row grid-margin">
-          <div class="col-12 text-center pb-5">
-            <h2>Our case studies</h2>
-            <h6 class="section-subtitle text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in">
-            <div class="card color-cards">
-              <div class="card-body p-0">
-                <div class="bg-primary text-center card-contents">
-                  <div class="card-image">
-                    <img src="images/Group95.svg" class="case-studies-card-img" alt="">
-                  </div>
-                  <div class="card-desc-box d-flex align-items-center justify-content-around">
-                    <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Online marketing</h6>
-                      <button class="btn btn-white">Read More</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Online Marketing</h6>
-                    <p>Seo, Marketing</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="card color-cards">
-              <div class="card-body p-0">
-                <div class="bg-warning text-center card-contents">
-                  <div class="card-image">
-                      <img src="images/Group108.svg" class="case-studies-card-img" alt="">
-                  </div>
-                  <div class="card-desc-box d-flex align-items-center justify-content-around">
-                    <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Web Development</h6>
-                      <button class="btn btn-white">Read More</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Web Development</h6>
-                    <p>Developing, Designing</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
-            <div class="card color-cards">
-              <div class="card-body p-0">
-                <div class="bg-violet text-center card-contents">
-                  <div class="card-image">
-                      <img src="images/Group126.svg" class="case-studies-card-img" alt="">
-                  </div>
-                  <div class="card-desc-box d-flex align-items-center justify-content-around">
-                    <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Web Designing</h6>
-                      <button class="btn btn-white">Read More</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Web Designing</h6>
-                    <p>Designing, Developing</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 stretch-card" data-aos="zoom-in" data-aos-delay="600">
-            <div class="card color-cards">
-              <div class="card-body p-0">
-                <div class="bg-success text-center card-contents">
-                  <div class="card-image">
-                      <img src="images/Group115.svg" class="case-studies-card-img" alt="">
-                  </div>
-                  <div class="card-desc-box d-flex align-items-center justify-content-around">
-                    <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Software Development</h6>
-                      <button class="btn btn-white">Read More</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Software Development</h6>
-                    <p>Developing, Designing</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="customer-feedback" id="feedback-section">
-        <div class="row">
-          <div class="col-12 text-center pb-5">
-            <h2>What our customers have to say</h2>
-            <h6 class="section-subtitle text-muted m-0">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>
-          </div>
-          <div class="owl-carousel owl-theme grid-margin">
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Tony Martinez</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Sophia Armstrong</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face15.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face16.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face1.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Tony Martinez</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Tony Martinez</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Sophia Armstrong</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-      </section>
+    <div class="phone-spacer">
+    </div>
       <section class="contact-us" id="contact-section">
-        <div class="contact-us-bgimage grid-margin" >
+        <div class="contact-us-bgimage grid-margin">
           <div class="pb-4">
-            <h4 class="px-3 px-md-0 m-0" data-aos="fade-down">Do you have any projects?</h4>
+            <h4 class="px-3 px-md-0 m-0" data-aos="fade-down">Do you have any questions?</h4>
             <h4 class="pt-1" data-aos="fade-down">Contact us</h4>
           </div>
           <div data-aos="fade-up">
-            <button class="btn btn-rounded btn-outline-danger">Contact us</button>
+            <button class="btn btn-rounded btn-outline-danger" id="special-button">Contact us</button>
           </div>
         </div>
       </section>
+    </div>
+  </div>
+  <div class="content-wrapper" style="background-color: #315F70">
+  <div class="container">
       <section class="contact-details" id="contact-details-section">
         <div class="row text-center text-md-left">
-          <div class="col-12 col-md-6 col-lg-3 grid-margin">
-            <img src="images/Group2.svg" alt="" class="pb-2">
+          <div class="col-lg-5">
+            <img src="images/logo.png" width="90" height="60" alt="" class="pb-2">
             <div class="pt-2">
-              <p class="text-muted m-0">mikayla_beer@feil.name</p>
-              <p class="text-muted m-0">906-179-8309</p>
+              <p class="text-gold m-0">medeciohealth@gmail.com</p>
+              <p class="text-gold m-0">(425) 241-7322</p>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 grid-margin">
-            <h5 class="pb-2">Get in Touch</h5>
-            <p class="text-muted">Don’t miss any updates of our new templates and extensions.!</p>
-            <form>
-              <input type="text" class="form-control" id="Email" placeholder="Email id">
-            </form>
-            <div class="pt-3">
-              <button class="btn btn-dark">Subscribe</button>
-            </div>
+          <div class="col-lg-5">
+            <h5 class="text-gold pb-2">Our Guidelines</h5>
+            <a href="#"><p class="text-gold m-0 pb-2">Terms</p></a>
+            <a href="#" ><p class="text-gold m-0 pt-1 pb-2">Privacy policy</p></a>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 grid-margin">
-            <h5 class="pb-2">Our Guidelines</h5>
-            <a href="#"><p class="m-0 pb-2">Terms</p></a>
-            <a href="#" ><p class="m-0 pt-1 pb-2">Privacy policy</p></a>
-            <a href="#"><p class="m-0 pt-1 pb-2">Cookie Policy</p></a>
-            <a href="#"><p class="m-0 pt-1">Discover</p></a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 grid-margin">
-              <h5 class="pb-2">Our address</h5>
-              <p class="text-muted">518 Schmeler Neck<br>Bartlett. Illinois</p>
+          <div class="col-lg-2">
+              <h5 class="text-gold pb-2">Our address</h5>
+              <p class="text-gold">11133 NE 65th St. Kirkland, WA, USA, 98033</p>
               <div class="d-flex justify-content-center justify-content-md-start">
                 <a href="#"><span class="mdi mdi-facebook"></span></a>
                 <a href="#"><span class="mdi mdi-twitter"></span></a>
@@ -377,8 +158,10 @@
           </div>
         </div>
       </section>
+      <div class="footer-spacer">
+      </div>
       <footer class="border-top">
-        <p class="text-center text-muted pt-4">Copyright © 2019<a href="https://www.bootstrapdash.com/" class="px-1">Bootstrapdash.</a>All rights reserved.</p>
+        <p class="text-center text-gold pt-4">Copyright © 2019<a href="https://www.medecio.com" class="px-1" style="color: #C3AF7E">Medecio.</a>All rights reserved.</p>
       </footer>
       <!-- Modal for Contact - us Button -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

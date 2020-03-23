@@ -2189,6 +2189,28 @@ textarea.form-control {
   }
 }
 
+#special-button {
+  border: 2px solid #315F70;
+  color: #315F70;
+  transition: all 0.5s ease-in-out;
+}
+
+#special-button:hover {
+  color: #FFFFFF;
+  background-color: #315F70;
+}
+
+#sign-up-btn {
+  border: 2px solid #C3AF7E;
+  background-color: transparent;
+  color: #C3AF7E;
+}
+
+#sign-up-btn:hover {
+  background-color: #C3AF7E;
+  color: #FFFFFF;
+}
+
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -3852,7 +3874,7 @@ input[type="button"].btn-block {
 }
 
 .nav-link.disabled {
-  color: #6c757d;
+  color: #c3af7e;
   pointer-events: none;
   cursor: default;
 }
@@ -3876,15 +3898,15 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
+  color: #c3af7e;
   background-color: transparent;
   border-color: transparent;
 }
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
-  background-color: #fff;
+  color: #c3af7e;
+  background-color: #c3af7e;
   border-color: #dee2e6 #dee2e6 #fff;
 }
 
@@ -3900,8 +3922,8 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #000637;
+  color: #c3af7e;
+  background-color: #c3af7e;
 }
 
 .nav-fill .nav-item {
@@ -4357,7 +4379,7 @@ input[type="button"].btn-block {
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 1px solid rgba(195, 175, 126, 1);
 }
 
 .card-footer:last-child {
@@ -9584,10 +9606,29 @@ body.sidebar-open::before {
 
 .middle-section {
   background-color: #f7f8fa;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   position: relative;
-  left: 0;
-  right: 0;
+
+}
+
+.spacer {
+  padding-bottom: 100px;
+}
+
+.footer-spacer {
+  padding-top: 40px;
+}
+
+.phone-spacer {
+  padding-top: 50px;
+}
+
+.text-gold {
+  color: #C3AF7E;
+}
+
+.text-blue {
+  color:#315F70;
 }
 
 .second-section {
@@ -9617,6 +9658,7 @@ body.sidebar-open::before {
 
 .features-overview .features-width {
   flex-basis: 61%;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -9718,7 +9760,7 @@ body.sidebar-open::before {
 }
 
 .contact-us .contact-us-bgimage {
-  background-image: url("../images/gdpr.jpg");
+  background-image: url("../images/bgimg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9726,9 +9768,10 @@ body.sidebar-open::before {
   padding: 83px 0px 68px 0px;
 }
 
+
 .contact-details .mdi {
   font-size: 14px;
-  color: #6e6e6e;
+  color: #FFFFFF;
   border-radius: 50px;
   border: 1px solid rgba(151, 151, 151, 0.24);
   padding: 3px 6px;
@@ -9740,6 +9783,8 @@ body.sidebar-open::before {
   background: #a6a6a6;
   color: white;
 }
+
+
 
 .contact-details a {
   color: #6e6e6e;
@@ -9873,16 +9918,16 @@ footer a:hover {
   font-size: 0.9375rem;
   padding: 0px 17px;
   font-weight: 500;
-  color: #111111;
+  color: #c3af7e;
 }
 
 .navbar .navbar-menu-wrapper .navbar-nav .nav-link:hover {
-  color: #ff0000;
+  color: #ffffff;
   transition: all 0.3s ease;
 }
 
 .navbar .navbar-menu-wrapper .navbar-nav .nav-link.active {
-  color: #ff0000;
+  color: #ffffff;
 }
 
 .navbar .navbar-collapse-logo {
@@ -10089,16 +10134,16 @@ footer a:hover {
 }
 
 .btn-opacity-success {
-  color: #5ed6b3;
-  background-color: #b7eddd;
-  border: 2px solid transparent;
+  color: #26d254;
+  background-color: white;
+  border: 2px solid #26d254;
   transition: all 0.5s ease-in-out;
 }
 
 .btn-opacity-success:hover {
-  color: #5ed6b3;
-  background-color: white;
-  border: 2px solid #5ed6b3;
+  color: white;
+  background-color: #26d254;
+  border: 2px solid #26d254;
 }
 
 .btn-opacity-info {
